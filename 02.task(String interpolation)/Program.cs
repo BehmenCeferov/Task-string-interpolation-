@@ -1,5 +1,5 @@
 ﻿using static System.Console;
-WriteLine("What language are you learn?");
+WriteLine("What language are you learning?");
 string programmingLanguage = ReadLine();
 WriteLine("What is your group number?");
 string groupNumber = ReadLine();
