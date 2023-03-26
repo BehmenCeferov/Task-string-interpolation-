@@ -56,9 +56,9 @@ WriteLine("1 - İsti yemeklər");
 WriteLine("2 - Qazan yeməkləri");
 WriteLine("3 - içkilər");
 WriteLine("4 - Desertlər");
-short mainMenuselection = ToInt16(ReadLine());
+short mainMenuSelection = ToInt16(ReadLine());
 
-switch (mainMenuselection)
+switch (mainMenuSelection)
 {
     case 1:
         WriteLine("1 - Dolma");
