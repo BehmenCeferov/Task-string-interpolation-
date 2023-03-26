@@ -134,7 +134,6 @@ switch (mainMenuselection)
         break;
     case 4:
         WriteLine("1 - Şəkər çörəyi");
-        WriteLine("1 - Şəkər çörəyi");
         WriteLine("2 - Karako");
         WriteLine("3 - Zinger");
         WriteLine("4 - Alma peroqu");
