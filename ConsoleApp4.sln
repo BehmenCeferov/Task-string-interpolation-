@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.task(String interpolatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.task(.MathOperations)", "03.task(.MathOperations)\03.task(.MathOperations).csproj", "{D1C2BFF8-08AB-4EB7-923D-A712E35461A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.(Conditions)If", "04.(Conditions)If\04.(Conditions)If.csproj", "{544CF1EE-E204-42FA-BB1D-3945C3BB27E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.(Conditions)If", "04.(Conditions)If\04.(Conditions)If.csproj", "{544CF1EE-E204-42FA-BB1D-3945C3BB27E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loop", "Loop\Loop.csproj", "{3F670D27-658E-4D37-8584-5821201BD8DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{544CF1EE-E204-42FA-BB1D-3945C3BB27E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{544CF1EE-E204-42FA-BB1D-3945C3BB27E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{544CF1EE-E204-42FA-BB1D-3945C3BB27E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F670D27-658E-4D37-8584-5821201BD8DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F670D27-658E-4D37-8584-5821201BD8DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F670D27-658E-4D37-8584-5821201BD8DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F670D27-658E-4D37-8584-5821201BD8DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

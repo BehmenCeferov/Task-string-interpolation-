@@ -1,0 +1,51 @@
+﻿//3-cu tapshiriq
+//int number = 304001;
+//int positiveSum = 0;
+//int nonZeroDigitCount = 0;
+
+//while (number > 0)
+//{
+//    int digit = number % 10;
+//    if (digit > 0)
+//    {
+//        positiveSum += digit;
+//        nonZeroDigitCount++;
+//    }
+//    number /= 10;
+//}
+
+//Console.WriteLine("Müsbət rəqəmlərin cəmi: " + positiveSum);
+//Console.WriteLine("Müsbət və mənfi olmayan rəqəmlərin sayı: " + nonZeroDigitCount);
+
+// 1-ci tapshiriq
+//long digit = 1;
+//long result = 1;
+//for (digit = 1; digit <= 50; digit += 3) 
+//{
+//    result *= digit;
+//    digit += 3; 
+//}
+//Console.WriteLine(hasil);
+
+//2-ci tapsiriq
+int sum = 0;
+int result2 = 1;
+int singleDigitCount = 0;
+for (int i = -30; i <=28; i++)
+{
+    if(i % 3 == 0 && i % 6 == 0)
+    {
+        sum += i;
+    }
+    if(i % 5 == 0 && i % 2 == 0)
+    {
+        result2 *= i;
+    }
+    if (i % 2 != 0)
+    {
+        singleDigitCount++;
+    }
+}
+Console.WriteLine($"Həm 3 həm 6 bölünən ədədlərin cəmi: {sum}");
+Console.WriteLine($"5 və ya 2 -  ə bölünənlərin hasili: {result2}");
+Console.WriteLine($"Tək ədədlərin sayı: {singleDigitCount}");
