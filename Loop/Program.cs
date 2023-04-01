@@ -1,4 +1,7 @@
-﻿//3-cu tapshiriq
+﻿using System.Text;
+
+Console.OutputEncoding = Encoding.UTF8;
+//3-cu tapshiriq
 //int number = 304001;
 //int positiveSum = 0;
 //int nonZeroDigitCount = 0;
@@ -28,6 +31,7 @@
 //Console.WriteLine(hasil);
 
 //2-ci tapsiriq
+Console.OutputEncoding = Encoding.UTF8;
 int sum = 0;
 int result2 = 1;
 int singleDigitCount = 0;
@@ -37,7 +41,7 @@ for (int i = -30; i <=28; i++)
     {
         sum += i;
     }
-    if(i % 5 == 0 && i % 2 == 0)
+    if(i % 5 == 0 || i % 2 == 0)
     {
         result2 *= i;
     }
