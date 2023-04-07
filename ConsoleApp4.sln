@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.task(.MathOperations)", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.(Conditions)If", "04.(Conditions)If\04.(Conditions)If.csproj", "{544CF1EE-E204-42FA-BB1D-3945C3BB27E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loop", "Loop\Loop.csproj", "{3F670D27-658E-4D37-8584-5821201BD8DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loop", "Loop\Loop.csproj", "{3F670D27-658E-4D37-8584-5821201BD8DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "Array\Array.csproj", "{36C36147-E50F-441C-ABDF-DFA78EF9221D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{3F670D27-658E-4D37-8584-5821201BD8DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F670D27-658E-4D37-8584-5821201BD8DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F670D27-658E-4D37-8584-5821201BD8DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C36147-E50F-441C-ABDF-DFA78EF9221D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C36147-E50F-441C-ABDF-DFA78EF9221D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C36147-E50F-441C-ABDF-DFA78EF9221D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C36147-E50F-441C-ABDF-DFA78EF9221D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
