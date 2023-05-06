@@ -6,7 +6,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 Hotel hotel = new Hotel("Hilton Hotel", "1B Azadlig Avenue, Baku 1000");
-hotel.GetPriceRoomAndCount(100, 50);
+hotel.GetPriceRoomAndCount(120, 2);
 namespace OOP
 {
     public class Hotel
