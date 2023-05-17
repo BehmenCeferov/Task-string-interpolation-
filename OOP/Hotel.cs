@@ -11,13 +11,13 @@ namespace OOP
 {
     public class Hotel
     {
-        private Guid Id;
-        public string HotelName;
-        public string Adress;
+        public Guid Id { get; private set; }
+        public string HotelName { get; set; }
+        public string Address { get; set; }
         public Hotel(string hotelName, string address)
         {
             HotelName = hotelName;
-            Adress = address;
+            Address = address;
             Id = Guid.NewGuid();
         }
 
@@ -31,7 +31,7 @@ namespace OOP
             {
                 roomPrice *= roomCount;
                 Console.WriteLine($"Hotel Name: {HotelName} " +
-                    $"Hotel adress: {Adress} " +
+                    $"Hotel adress: {Address} " +
                     $"Room Id: {Id} " +
                     $"RoomCount: {roomCount} " +
                     $"RoomPrice: {roomPrice}");
