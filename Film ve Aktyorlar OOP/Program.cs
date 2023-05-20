@@ -22,6 +22,7 @@ Console.WriteLine("Filmlər:");
 foreach (Film film in filmlər)
 {
     Console.WriteLine($"Ad: {film.MovieName}, Rejissor: {film.DirectorName}, IMDB Xalı: {film.ImdbPoint}, {film.releaseDate}");
+    film.RateMovie();
 }
 
 Console.WriteLine("Aktyorlar:");
